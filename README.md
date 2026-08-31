@@ -1,50 +1,47 @@
-# FDIC Failed Banks — Power BI Dashboard
+# Power BI DAX Sales Analysis
 
-A Power BI project analyzing U.S. bank failures using data from the **FDIC Failed Bank List**. The dashboard provides insights into bank failures across different locations and time periods.
+## Overview
 
-## 📊 Dashboard
+A hands-on DAX practice project using a sales dataset to strengthen my understanding of DAX and filter context in Power BI.
 
-The dashboard includes visualizations for:
+The project focuses on creating measures to answer business questions related to sales, customers, products, regions, rankings, and Top N analysis.
 
-* Failed banks by **state**
-* Failed banks by **city**
-* Failed banks by **month and year**
-* Overall trends in bank failures
-* Interactive filters for exploring the data
+## Tools Used
 
-## 🔄 Data Source
+- Power BI
+- DAX
+- Microsoft Excel
 
-The project uses data directly from the official FDIC Failed Bank List.
+## DAX Concepts Practiced
 
-The data is connected to Power BI as a live/refreshable source, allowing the dashboard to be updated when the FDIC list changes.
+- `CALCULATE()` – modifying filter context
+- `FILTER()` – applying conditional filters
+- `MAXX()` – evaluating expressions across a table
+- `RANKX()` – ranking customers and products
+- `TOPN()` – identifying Top N customers and products
+- `VALUES()` – working with unique values
+- `DIVIDE()` – calculating percentages
+- `SUM()`, `AVERAGE()`, `DISTINCTCOUNT()` – basic aggregations
 
-## 🧹 Data Preparation
+## Analysis Covered
 
-The raw data was cleaned and transformed using **Power Query** before being used for analysis and visualization.
+- Total sales, profit, and unique orders
+- Sales by region and category
+- Sales based on quantity and SalesAmount conditions
+- Highest-performing customer
+- Highest-selling product
+- Customer and product rankings
+- Top 2 customers and products
+- Sales contribution by USA and Canada
+- Highest customer sales within a specific region
+- Percentage-based sales analysis
 
-## 💡 Project Highlights
+## Key Learning
 
-* Built an interactive Power BI dashboard using real-world government data
-* Connected the report to a **refreshable data source**
-* Cleaned and transformed raw data using **Power Query**
-* Created visualizations to analyze geographic and time-based patterns
-* Used Power BI features to make the dashboard interactive and easy to explore
+The main objective of this project was to understand **how DAX evaluates calculations within different filter contexts**.
 
-## 🔍 Key Questions Explored
+Working through these questions helped me better understand how functions such as `CALCULATE()`, `MAXX()`, `RANKX()`, and `TOPN()` can be combined to solve practical business problems.
 
-* Which **states** have the highest number of failed banks?
-* Which **cities** have experienced the most bank failures?
-* How have bank failures changed **over time**?
-* Which **months or years** had the highest number of failures?
-* Are there noticeable **geographic or temporal patterns** in bank failures?
+## Project Screenshot
 
-## 🛠️ Tools Used
-
-* **Power BI**
-* **Power Query**
-* **DAX**
-* **FDIC Open Data**
-
-## 📷 Dashboard Preview
-
-![USA Failed Banks Dashboard](screencapture.png)
+![DAX Sales Analysis](practice.png)
