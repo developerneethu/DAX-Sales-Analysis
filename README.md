@@ -44,4 +44,4 @@ Working through these questions helped me better understand how functions such a
 
 ## Project Screenshot
 
-![DAX Sales Analysis](practice.png)
+![DAX Sales Analysis](Practice.png) 
